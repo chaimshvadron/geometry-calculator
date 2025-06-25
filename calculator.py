@@ -26,8 +26,5 @@ def main():
     for i, shape in enumerate(shapes, 1):
         print(f"{i}. {shape}")
     
-    print(f"\nTotal shapes created: {len(shapes)}")
-    print(f"Total area of all shapes: {sum(shape.get_area() for shape in shapes):.2f}")
-
 if __name__ == "__main__":
     main()
