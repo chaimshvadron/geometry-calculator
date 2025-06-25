@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Area Shape Resolver Calculator
-Main module that controls everything
-"""
 
 from shapes.rectangle import Rectangle
 from shapes.square import Square
@@ -13,7 +8,6 @@ from shapes.hexagon import Hexagon
 def main():
     print("=== Area Shape Resolver Calculator ===\n")
     
-    # Create different shapes
     shapes = [
         Rectangle(5, 3),
         Square(4),
@@ -22,7 +16,6 @@ def main():
         Hexagon(2)
     ]
     
-    # Display all shapes and their areas
     for i, shape in enumerate(shapes, 1):
         print(f"{i}. {shape}")
     
