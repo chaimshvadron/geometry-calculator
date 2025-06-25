@@ -5,5 +5,4 @@ class Triangle(Rectangle):
         super().__init__(base, height)
     
     def get_area(self):
-        # Triangle area is half of rectangle area
         return 0.5 * super().get_area()
